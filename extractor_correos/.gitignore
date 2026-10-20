@@ -1,0 +1,20 @@
+# Configuración real: contiene credenciales, nunca se sube
+.env
+cuentas*.csv
+!cuentas.example.csv
+
+# Salida del backup y logs (por si DESTINO apunta dentro del repo)
+respaldo/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
