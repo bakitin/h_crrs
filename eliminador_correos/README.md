@@ -8,6 +8,9 @@ fecha. Este proyecto es destructivo: usa `UID STORE` para marcar mensajes y
 
 ```bash
 cd eliminador_correos
+cp .env.example .env
+cp cuentas.example.csv cuentas.csv
+# editar .env y cuentas.csv
 python prueba.py
 python main.py
 ```
